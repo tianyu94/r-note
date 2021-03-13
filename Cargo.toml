@@ -7,3 +7,13 @@ edition = "2018"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+r-note-lib = { version = "0.1.0", path = "r-note-lib" }
+dotenv = "0.15.0"
+simple_logger = "1.11.0"
+log = "0.4.14"
+chrono = "0.4.19"
+uuid = { version = "0.8.2", features = ["v4"] }
+
+[dependencies.druid]
+version = "0.7.0"
+features = ["im"]
